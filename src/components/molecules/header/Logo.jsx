@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom"
+
 const Logo = () => {
   return (
-    <div>
-        <img src="https://m.media-amazon.com/images/I/41NG04HgHJL._AC_UF1000,1000_QL80_.jpg" alt="Logo eCommerce" />
+    <div className="logo flex">
+        <Link to="/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/EDteam-logo-fondo-blanco.svg/2560px-EDteam-logo-fondo-blanco.svg.png" alt="Logo eCommerce" width={100}  />
+        </Link>
     </div>
   )
 }
