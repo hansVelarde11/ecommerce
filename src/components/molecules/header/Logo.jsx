@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div className="logo flex">
         <Link to="/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/EDteam-logo-fondo-blanco.svg/2560px-EDteam-logo-fondo-blanco.svg.png" alt="Logo eCommerce" width={100}  />
+        <img className="rounded-md" src="https://i.pinimg.com/736x/28/f1/a9/28f1a972e13e4281b5273891ead173eb.jpg" alt="Logo eCommerce" width={50}  />
         </Link>
     </div>
   )
