@@ -2,15 +2,15 @@ import Axios from "axios";
 import { API_URL } from "../../constants/env";
 import { setToken } from "../../helpers/auth";
 import { useNavigate, Link } from "react-router-dom"
-import { useState } from "react";
+import { useContext, useState } from "react";
 import LoginTemplate from "../templates/LoginTemplate";
+import { UserContext } from "../../context/UserContext";
 
 const Login = () => {
 
     const nav = useNavigate()
-
+    const { setUserData } = useContext(UserContext);
     const [error, seterror] = useState()
-
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -26,6 +26,7 @@ const Login = () => {
       .then((response) => {
         console.log(data);
         setToken(response.data.data.token)
+        setUserData(response.data.data.user);
         nav("/")
         
       })
