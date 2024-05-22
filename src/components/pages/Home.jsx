@@ -7,7 +7,7 @@ function Home() {
     <>
     <Banner></Banner>
       <div>
-        <h2 className="mt-8 text-2xl">Últimos productos</h2>
+        <h2 className="mt-8 text-2xl">Nuestro recientes productos</h2>
         <MainProducts></MainProducts>
       </div>
     
