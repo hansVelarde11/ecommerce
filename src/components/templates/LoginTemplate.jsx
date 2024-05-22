@@ -11,7 +11,7 @@ function LoginTemplate( {children, title}) {
                     <div className="text-center">
                       <img
                         className="mx-auto w-48 mb-4 pt-4"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/EDteam-logo-fondo-blanco.svg/2560px-EDteam-logo-fondo-blanco.svg.png"
+                        src="https://i.pinimg.com/736x/28/f1/a9/28f1a972e13e4281b5273891ead173eb.jpg"
                         alt="logo"
                       />
                       <h4 className="text-xl font-semibold mt-1 mb-8 pb-1">
